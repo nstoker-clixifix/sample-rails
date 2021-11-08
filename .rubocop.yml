@@ -1,0 +1,17 @@
+AllCops:
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/**/*.rb
+    - features/**/*/rb
+    - test/**/*.rb
+  NewCops: enable
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+Style/BlockComments:
+  Exclude:
+    - spec/spec_helper
+Style/Documentation:
+  Enabled: false
